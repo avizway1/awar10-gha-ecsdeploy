@@ -1,0 +1,76 @@
+{
+  "todo-tasks": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "1"
+          },
+          "title": {
+            "S": "Submit project-x report"
+          },
+          "description": {
+            "S": "Final version of the batch 10 project report"
+          },
+          "dueDate": {
+            "S": "2026-08-30"
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2026-08-25T09:00:00.000Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "2"
+          },
+          "title": {
+            "S": "Pay electricity bill"
+          },
+          "description": {
+            "S": ""
+          },
+          "dueDate": {
+            "S": "2026-09-05"
+          },
+          "status": {
+            "S": "completed"
+          },
+          "createdAt": {
+            "S": "2026-09-01T10:15:00.000Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "3"
+          },
+          "title": {
+            "S": "Plan weekend trip"
+          },
+          "description": {
+            "S": "Book train tickets and hotel"
+          },
+          "dueDate": {
+            "S": "2026-09-20"
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2026-09-02T18:30:00.000Z"
+          }
+        }
+      }
+    }
+  ]
+}
